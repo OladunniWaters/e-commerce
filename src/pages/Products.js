@@ -1,24 +1,10 @@
 import Item from '../components/Item'
-import {useNavigate} from 'react-router-dom'
-import { useSelector } from 'react-redux';
-import { BsFillCartFill } from 'react-icons/bs';
 import Data from '../data/Data'
 import { useState } from "react";
 
 
 function Products() {
 
-  const navigate = useNavigate()
-  const cart = useSelector((state) => state.cart)
-
-  const getTotalQuantity = () => {
-    let total = 0
-    cart.forEach(item => {
-      total += item.quantity
-    })
-    return total
-  }
-  
   
     //filter by category
         const [item, setItem] = useState(Data)
@@ -57,10 +43,6 @@ function Products() {
                          )): "No Product Found!"}
                          </div>
               </div>
-            </div>
-            <div className='shopping-cart' onClick={() => navigate('/cart')}>
-              <BsFillCartFill />
-              <p>{getTotalQuantity() || 0}</p>
             </div>
           </div>
   )
