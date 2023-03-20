@@ -1,73 +1,64 @@
 import './Footer.scss'
+import { FaTwitter, FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+
+
 
 function Footer() {
   return (
  
-  <footer class="bg-white">
-    <div class="container py-5">
-      <div class="row py-3">
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
 
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">PRODUCT</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 footer-header">PRODUCT</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Contact Us</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Stories</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Press</a></li>
+            <li class="mb-2"><a href="#">MAN</a></li>
+            <li class="mb-2"><a href="#">WOMAN</a></li>
+            <li class="mb-2"><a href="#">KIDS</a></li>
+            <li class="mb-2"><a href="#">SNEAKERS</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">GET HELP</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 footer-header">GET HELP</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Payments</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Shipping</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Cancellation</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Returns</a></li>
+            <li class="mb-2"><a href="#">DELIVERY</a></li>
+            <li class="mb-2"><a href="#">PAYMENT OPTIONS</a></li>
+            <li class="mb-2"><a href="#">RETURNS</a></li>
+            <li class="mb-2"><a href="#">CONTACT US</a></li>
           </ul>
         </div>
         
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">COMPANY</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 footer-header">COMPANY</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Return Policy</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Terms Of Use</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Security</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Privacy</a></li>
+            <li class="mb-2"><a href="#">ABOUT US</a></li>
+            <li class="mb-2"><a href="#">COMMUNITY</a></li>
+            <li class="mb-2"><a href="#">REVIEWS</a></li>
+            <li class="mb-2"><a href="#">FAQ</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">LEGAL</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 footer-header">LEGAL</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Sitemap</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+            <li class="mb-2"><a href="#">PRIVACY POLICY</a></li>
+            <li class="mb-2"><a href="#">TERMS</a></li>
+            <li class="mb-2"><a href="#">CONDITIONS</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Registered Office Address</h6>
-          <p class="text-muted mb-4">Here , write the complete address of the Registered office address along with telephone number.</p>
+          <h6 class="text-uppercase font-weight-bold mb-4 footer-header">SOCIAL MEDIA</h6>
+          <p class=''> Designed and Developed by OladunniWaters</p>
           <ul class="list-inline mt-4">
-            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><FaInstagram className='footer-icon'/></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><FaTwitter className='footer-icon'/></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><FaFacebookF className='footer-icon'/></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><FaLinkedinIn  className='footer-icon'/></a></li>
           </ul>
         </div>
       </div>
     </div>
-    <hr class="p-0 m-0 b-0" />
-
-   
-    <div class="bg-light py-2">
-      <div class="container text-center">
-        <p class="text-muted mb-0 py-2">&copy; 2023 Developed & Designed by OladunniWaters.</p>
-        
-        </div>
-      </div>
-    
   </footer>
   );
 }

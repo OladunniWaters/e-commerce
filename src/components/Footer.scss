@@ -1,36 +1,32 @@
-
-
-#button-addon1 {
-  color: #ffc371;
+.footer {
+padding-top: 100px;
+padding-bottom: 50px;
+background: var( --color-bg-footer);
 }
 
 
-i {
-  color: #0000cc;
-  font-size: 20px;
+.footer-header {
+font-family: 'R-Spectr', sans-serif;
+}
+
+
+a {
+  color: var( --color-text);
+  font-size: 15px;
   text-decoration: none;
+  font-family: 'Default Sans', sans-serif;
 }
 
-.form-control::placeholder {
-  font-size: 0.95rem;
-  color: #aaa;
-  font-style: italic;
+.footer-icon {
+  color: var( --color-text);
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  font-family: 'Default Sans', sans-serif; 
 }
 
-.form-control.shadow-0:focus {
-  box-shadow: none;
-}
 
- 
-.display-3{
-  font-family: 'Sanchez', serif;
+.footer-copywrite {
+font-family: 'R-Spectr', sans-serif;  
+font-size: 200px;
 }
-
-p{
-  font-family: 'Tajawal', sans-serif;
-}
-
-.lead{
-  font-family: 'Sanchez 200', serif;
-}
-
