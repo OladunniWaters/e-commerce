@@ -49,7 +49,7 @@ function Footer() {
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4 footer-header">SOCIAL MEDIA</h6>
-          <p class=''> Designed and Developed by OladunniWaters</p>
+          <p class='footer-copywrite'>DESIGNED & DEVELOPED BY OLADUNIWATERS</p>
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><FaInstagram className='footer-icon'/></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><FaTwitter className='footer-icon'/></a></li>

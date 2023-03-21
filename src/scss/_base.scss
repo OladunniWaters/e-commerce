@@ -19,13 +19,14 @@
   /* ========= Dark Theme Variable ========== */
 [data-theme = "dark"]{
   --color-bg-footer: #000;
-  --color-bg: #fff;
+  --color-bg: #000;
   --color-text:  #fff;
+  --color-footer-text:  #fff;
   --color-portfolio-text:  #000;
   --color-icon:  #fff;
   --color-skill-bg:  rgba(242, 247, 251, 0.08);
   --color-skill-border:  rgba(242, 247, 251, 0.25);
-  --color-skill-color:  #F2F7FB;
+  --color-hero-red:  #FF0000;
 }
 
 *{
