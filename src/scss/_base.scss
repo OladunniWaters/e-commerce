@@ -9,6 +9,7 @@
   --color-skill-bg:  rgba(242, 247, 251, 0.08);
   --color-skill-border:  rgba(242, 247, 251, 0.25);
   --color-skill-color:  #F2F7FB;
+  
 ;
 
   /* ======= neumorphic ======== */
@@ -22,11 +23,14 @@
   --color-bg: #000;
   --color-text:  #fff;
   --color-footer-text:  #fff;
-  --color-portfolio-text:  #000;
-  --color-icon:  #fff;
-  --color-skill-bg:  rgba(242, 247, 251, 0.08);
-  --color-skill-border:  rgba(242, 247, 251, 0.25);
-  --color-hero-red:  #FF0000;
+
+  --color-orange:  #f94a4c;
+  --color-light-orange:  #fe5459;
+  --color-grey:  #b3b1b2;
+  --color-cream:  #dcd8cd;
+  --color-white:  #ece9e6;
+  --color-darkBrown:  #2c2724;
+  --color-light-darkBrown:  #342e2b;
 }
 
 *{
@@ -40,8 +44,8 @@ html{
 }
 
 .app{
-  background: var(--color-bg);
-   color: var(--color-text);
+  background: var(--color-cream);
+   color: var( --color-darkBrown);
      cursor: cell;
 }
 
