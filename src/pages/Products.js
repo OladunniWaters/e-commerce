@@ -13,8 +13,8 @@ function Products() {
   
 
   return (
-    <div className="container Products">
-                 <h1>BEST SELLERS</h1>
+          <div className="container Products">
+             <h1 className='products-header'>BEST SELLERS</h1>
                 <div className="products-display">
                          {item ? item.map(product => (
                              <Item
@@ -23,7 +23,7 @@ function Products() {
                              />
                          )): "No Product Found!"}
                    </div>
-        </div>
+              </div>
   )
 }
 

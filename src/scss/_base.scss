@@ -20,16 +20,11 @@
   /* ========= Dark Theme Variable ========== */
 [data-theme = "dark"]{
   --color-bg-footer: #000;
-  --color-bg: #000;
   --color-text:  #000;
   --color-footer-text:  #fff;
-
   --color-orange:  #f94a4c;
-  --color-grey:  #b3b1b2;
-  --color-cream:  #dcd8cd;
-  --color-white:  #ece9e6;
-  --color-darkBrown:  #000;
-  --color-light-darkBrown:  #342e2b;
+  --color-bg:  #dcd8cd;
+
 }
 
 *{
@@ -43,8 +38,8 @@ html{
 }
 
 .app{
-  background: var(--color-cream);
-   color: var( --color-darkBrown);
+  background: var(--color-bg);
+   color: var( --color-text);
      cursor: cell;
 }
 

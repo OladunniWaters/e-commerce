@@ -17,6 +17,8 @@ function Item({product}) {
         setLoading(true);
         setTimeout(() => setLoading(false), 3700);
     } 
+    
+
 
   return (
     <div className="item">
@@ -30,9 +32,7 @@ function Item({product}) {
       <p className="item-title">{title}</p>
       <div className="item-info">
         <p className="item-price">${price} </p>
-    {/*  <button   onClick={() =>  dispatch(addToCart({id, title, thumbnail, price}))}>Add to Cart </button> */}
-      
-      
+
     <button onClick={() => { animate();  dispatch(addToCart({id, title, thumbnail, price}))  }} className = {loading ? `loading` : null}>
     <GoPlus className='plus' />
     <div class="cart">
