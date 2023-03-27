@@ -15,6 +15,7 @@ export default function Homepage() {
       <Banner />
       <Products />
       <CategoryProduct />
+      <Banner />
       <Footer />
     </div>
   );

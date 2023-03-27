@@ -33,7 +33,7 @@ function Item({product}) {
       <div className="item-info">
         <p className="item-price">${price} </p>
 
-    <button onClick={() => { animate();  dispatch(addToCart({id, title, thumbnail, price}))  }} className = {loading ? `loading` : null}>
+    <button onClick={() => { animate();  dispatch(addToCart({id, title, thumbnail, price}))  }} id='button' className = {loading ? `loading` : null}>
     <GoPlus className='plus' />
     <div class="cart">
         <svg viewBox="0 0 36 26">
