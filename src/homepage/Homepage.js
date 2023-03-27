@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Products from "../pages/Products";
+import CategoryProduct from "../pages/CategoryProduct";
 import Footer from "../components/Footer";
 
 
@@ -13,6 +14,7 @@ export default function Homepage() {
       <Hero />
       <Banner />
       <Products />
+      <CategoryProduct />
       <Footer />
     </div>
   );
