@@ -1,6 +1,7 @@
 import {useNavigate} from 'react-router-dom'
 import { useSelector } from 'react-redux';
-import './Navbar.scss'
+import './Navbar.scss';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 
 function Navbar() {
@@ -23,8 +24,8 @@ function Navbar() {
        <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="/homepage">WATERS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <RxHamburgerMenu />
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">

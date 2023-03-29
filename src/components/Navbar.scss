@@ -3,10 +3,41 @@
 }
 
 .navbar-brand {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: 'R-Spectr', sans-serif;
+font-size: 20px;  
+margin-right: 100px;
+color: var(--color-text);
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
 font-family: 'R-Spectr', sans-serif;
 font-size: 30px;  
 margin-right: 100px;
 color: var(--color-text);
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: 'R-Spectr', sans-serif;
+font-size: 30px;  
+margin-right: 100px;
+color: var(--color-text);
+}
+//extra large
+font-family: 'R-Spectr', sans-serif;
+font-size: 30px;  
+margin-right: 100px;
+color: var(--color-text);
+}
+
+
+
+.navbar-toggler-icon {
+  font-size: 30px;
+  border: none;
+  color: #000;
+  background: var(--color-bg);
 }
 
 .navbar-brand:hover {
