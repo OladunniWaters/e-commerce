@@ -27,22 +27,27 @@ padding-bottom: 100px;
 .cart-header {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-size: 20px;
+transform: scale(1.5, 1.5);
+font-size: 30px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-bottom: 60px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-size: 20px;
+transform: scale(2, 2);
+font-size: 30px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-bottom: 60px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-text-align: left;
-font-size: 20px;
+transform: scale(3, 3);
+font-size: 30px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-bottom: 60px;
 }
 //extra large
 transform: scale(3, 3);

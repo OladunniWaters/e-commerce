@@ -2,21 +2,27 @@
 .total-price {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-size: 30px;
+font-size: 20px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-top: 40px;
+margin-bottom: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 font-size: 30px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-top: 40px;
+margin-bottom: 50px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-size: 30px;
 font-family: 'R-Spectr', sans-serif;
 color: (--color-text);
+margin-top: 40px;
+margin-bottom: 50px;
 }
 //extra large
 font-size: 30px;
@@ -31,21 +37,30 @@ margin-bottom: 50px;
 .checkout-btn {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-size: 30px;
+font-size: 10px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+width: 100px;
+padding: 10px;
+color: var(--color-footer-text);
+background: var(--color-bg-footer);
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-size: 30px;
+font-size: 20px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+width: 200px;
+padding: 10px;
+color: var(--color-footer-text);
+background: var(--color-bg-footer);
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-font-size: 30px;
+font-size: 20px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+width: 200px;
+padding: 10px;
+color: var(--color-footer-text);
+background: var(--color-bg-footer);
 }
 //extra large
 font-size: 20px;
