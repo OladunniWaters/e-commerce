@@ -27,7 +27,7 @@ function CategoryProduct() {
           </div>
           
      
-             <div className="container category-product-display">
+             <div className="category-product-display">
                          {item ? item.map(product => (
                              <Item
                                 product={product}

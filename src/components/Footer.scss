@@ -1,5 +1,5 @@
 .footer {
-padding-top: 100px;
+padding-top: 50px;
 padding-bottom: 100px;
 background: var( --color-bg-footer);
 }
@@ -8,15 +8,26 @@ background: var( --color-bg-footer);
 .footer-header {
 font-family: 'R-Spectr', sans-serif;
 color: var(  --color-footer-text);
+font-size: 20px;
 }
 
 
 a {
   color: var(  --color-footer-text);
-  font-size: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Default Sans', sans-serif;
+  line-height: 50px;
+}
+
+a:hover {
+  color: var(  --color-orange);
+  font-size: 18px;
   text-decoration: none;
   font-family: 'Default Sans', sans-serif;
 }
+
+
 
 .footer-icon {
   color: var( --color-footer-text);
@@ -26,9 +37,17 @@ a {
   font-family: 'Default Sans', sans-serif; 
 }
 
+.footer-icon:hover {
+  color: var( --color-orange);
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  font-family: 'Default Sans', sans-serif; 
+}
+
 
 .footer-copywrite {
   font-family: 'Default Sans', sans-serif;   
-font-size: 15px;
+font-size: 18px;
 color: var(  --color-footer-text);
 }

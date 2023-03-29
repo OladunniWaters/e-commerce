@@ -4,7 +4,7 @@ import { FaStarOfLife } from 'react-icons/fa';
 
 import hero1 from '../assets/hero1.png';
 import star3 from '../assets/Vector1.png';
-import star4 from '../assets/Vector.png';
+
 
 function Hero() {
   

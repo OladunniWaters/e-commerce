@@ -1,4 +1,6 @@
 import Homepage from "./homepage/Homepage";
+import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
 import Login from "./firebase/Login";
 import SignUp from "./firebase/SignUp";
@@ -19,6 +21,7 @@ function App() {
   return (
     <div className="app" data-theme={theme}>
     <HashRouter>
+      <Navbar changeTheme={changeTheme}/>
       <Routes>
         <Route exact path="/" element={<Login />} />
         <Route exact path="/register" element={<SignUp />} />
@@ -27,6 +30,7 @@ function App() {
         <Route path="/homepage" element={<Homepage/>} />
         <Route path="/cart" element={<Cart/>} />
       </Routes>
+      <Footer />
     </HashRouter> 
     </div>
   );

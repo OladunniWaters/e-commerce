@@ -2,20 +2,36 @@
 .Products {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-padding-top: 100px;
-padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;  
+padding-top: 50px;
+padding-bottom: 50px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 padding-top: 100px;
 padding-bottom: 100px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 padding-top: 100px;
 padding-bottom: 100px;
 }
 //extra large
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 padding-top: 150px;
 padding-bottom: 150px;
 }
@@ -26,24 +42,33 @@ padding-bottom: 150px;
 .products-header{
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-text-align: left;
-font-size: 70px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+font-size: 1.1rem;
+text-align: center;
+color: var(--color-text);
+transform: scale(1.5, 1.5);
+font-weight: bold;
+padding-bottom: 20px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-text-align: left;
-font-size: 70px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+font-size: 1.1rem;
+text-align: center;
+color: var(--color-text);
+transform: scale(3, 3);
+font-weight: bold;
+padding-bottom: 20px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-text-align: left;
-font-size: 70px;
 font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+font-size: 1.1rem;
+text-align: center;
+color: var(--color-text);
+transform: scale(3, 3);
+font-weight: bold;
+padding-bottom: 20px;
 }
 //extra large
 font-family: 'R-Spectr', sans-serif;
@@ -61,13 +86,13 @@ padding-bottom: 20px;
 .products-display {
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(1, 1fr); 
   gap: 1rem;
   margin-bottom: 40px;
 }
 
 @media (min-width: 600px) {
-  .products-display { grid-template-columns: repeat(3, 1fr); }
+  .products-display { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (min-width: 900px) {

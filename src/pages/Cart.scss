@@ -1,60 +1,60 @@
-
-.total-price {
+.cart-cont{
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+text-align: center;  
+padding-top: 100px;
+padding-bottom: 100px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 //extra large
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
-margin-top: 40px;
-margin-bottom: 50px;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 
-
-.checkout-btn {
+.cart-header {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
-}
-// medium
-@media screen and (min-width: 577px) and (max-width: 768px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
-}
-//large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-font-size: 30px;
-font-family: 'R-Spectr', sans-serif;
-color: (--color-text);
-}
-//extra large
 font-size: 20px;
 font-family: 'R-Spectr', sans-serif;
-width: 200px;
-padding: 10px;
-color: var(--color-footer-text);
-background: var(--color-bg-footer);
+color: (--color-text);
 }
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-size: 20px;
+font-family: 'R-Spectr', sans-serif;
+color: (--color-text);
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+text-align: left;
+font-size: 20px;
+font-family: 'R-Spectr', sans-serif;
+color: (--color-text);
+}
+//extra large
+transform: scale(3, 3);
+font-size: 30px;
+font-family: 'R-Spectr', sans-serif;
+color: (--color-text);
+margin-bottom: 60px;
+}
+
+
+
+
 
 
 

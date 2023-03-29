@@ -1,6 +1,5 @@
 import {useNavigate} from 'react-router-dom'
 import { useSelector } from 'react-redux';
-import { CgProfile } from 'react-icons/cg';
 import './Navbar.scss'
 
 
