@@ -9,13 +9,16 @@ function Login() {
   const [password, setPassword] = useState("");
   const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
+  
   useEffect(() => {
     if (loading) {
       // maybe trigger a loading screen
       return;
     }
     if (user) navigate("/homepage");
-  }, [user, loading]);
+  }, [user, loading, navigate]);
+  
+  
   return (
     <div className="login">
       <div className="login__container">

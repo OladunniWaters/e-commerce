@@ -17,7 +17,7 @@ import {
  addDoc,
 } from "firebase/firestore";
 
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAoEXMXOzkoLVzJVy0WxRspV9cS2m8cicM",
@@ -30,7 +30,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
