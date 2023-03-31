@@ -1,24 +1,4 @@
 
-.halloweenImage1 {
-    position: absolute;
-    width: 800px;
-    top: 20px;
-    right: 180px;
-    background-image: url('../assets/hero1.png');
-    -webkit-animation: slide 0.5s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 10s;
-}
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
-}
-
-@keyframes slide {
-    100% { left: 0; }
-}
-
 
 
 
@@ -42,7 +22,7 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -77,7 +57,7 @@ flex-direction: column;
 justify-content: center;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -114,7 +94,7 @@ font-weight: bold;
 margin-bottom: 40px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'R-Spectr', sans-serif;
 font-size: 1.1rem;
 text-align: center;
@@ -163,7 +143,7 @@ padding-bottom: 5px;
   -webkit-text-stroke: 1px  var(--color-orange);
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'R-Spectr', sans-serif;
 font-size: 1.1rem;
 text-align: center;
@@ -203,7 +183,7 @@ width: 400px;
   transform: rotate(-20deg);
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 width: 400px;
   -ms-transform: rotate(20deg); /* IE 9 */
   transform: rotate(-20deg);
@@ -350,7 +330,7 @@ font-size: 20px;
 color: var(--color-text);
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'R-Spectr', sans-serif;  
 font-size: 20px;
 color: var(--color-text);
@@ -381,7 +361,7 @@ color: var(--color-text);
 margin-top: -10px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  font-family: 'Default Sans', sans-serif;
 font-size: 16px;
 font-weight: bold;
@@ -416,7 +396,7 @@ color: var(--color-text);
 margin-top: 10px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  font-family: 'Default Sans', sans-serif;
 font-size: 16px;
 font-weight: bold;
@@ -459,7 +439,7 @@ border-radius: 15px;
 text-align: center;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  font-family: 'Default Sans', sans-serif;
 font-size: 10px;
 font-weight: bold;
@@ -496,7 +476,7 @@ display: flex;
 flex-direction: column;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 display: flex;
 flex-direction: column;
 margin-top: 25px;
@@ -524,7 +504,7 @@ font-size: 20px;
 color: var(--color-text);
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'R-Spectr', sans-serif;  
 font-size: 20px;
 color: var(--color-text);
@@ -557,7 +537,7 @@ margin-bottom: 40px;
 margin-top: -10px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  font-family: 'Default Sans', sans-serif;
 font-size: 16px;
 font-weight: bold;
@@ -594,7 +574,7 @@ color: var(--color-text);
 margin-top: 15px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
  font-family: 'Default Sans', sans-serif;
 font-size: 16px;
 font-weight: bold;
@@ -628,7 +608,7 @@ flex-grow: 0;
 position: relative;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -640,7 +620,6 @@ order: 1;
 flex-grow: 0;
 position: relative;
 }
-
 
 
 .StarImage1 {
@@ -659,10 +638,10 @@ top: 1px;
 width: 25px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 position: absolute;
 left: 70px;
-top: 1px;
+top: -11px;
 width: 25px;
 }
 //extra large
@@ -694,7 +673,7 @@ height: 80px;
 animation: rotation 10s infinite linear;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 position: absolute;
 left: 170px;
 top: 50px;
@@ -730,6 +709,7 @@ position: absolute;
 right: 20px;
 top: 130px;
 width: 20px;
+display: none;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -739,7 +719,7 @@ top: 120px;
 width: 20px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 position: absolute;
 right: 70px;
 top: 110px;
@@ -773,7 +753,7 @@ height: 30px;
 animation: rotation 10s infinite linear;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 position: absolute;
 right: 200px;
 top: 240px;
@@ -809,7 +789,7 @@ background: var(--color-orange);
 margin-bottom: -10px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 width: 150px;
 height: 10px;
 background: var(--color-orange);
@@ -838,7 +818,7 @@ height: 10px;
 background: var(--color-orange);
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 width: 150px;
 height: 10px;
 background: var(--color-orange);
@@ -852,8 +832,209 @@ background: var(--color-orange);
 
 
 
+.music-button {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+position: absolute;
+left: 300px;
+top: 10px;
+border: 2px solid var(--color-orange);
+background: var(--color-bg);
+width: 60px;
+padding: 5px;
+border-radius: 30px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+position: absolute;
+left: 70px;
+top: 38px;
+border: 2px solid var(--color-orange);
+background: var(--color-bg);
+width: 55px;
+padding: 5px;
+border-radius: 30px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+position: absolute;
+left: 70px;
+top: 18px;
+border: 2px solid var(--color-orange);
+background: var(--color-bg);
+width: 55px;
+padding: 5px;
+border-radius: 30px;
+}
+//extra large
+position: absolute;
+left: 140px;
+top: 120px;
+border: 2px solid var(--color-orange);
+background: var(--color-bg);
+width: 110px;
+padding: 10px;
+border-radius: 30px;
+}
 
 
+.stop-icon {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+width: 15px;
+height: 15px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+width: 15px;
+height: 15px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+width: 15px;
+height: 15px;
+}
+//extra large
+width: 25px;
+height: 25px;
+}
+
+
+
+.play-cont {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+//extra large
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon  {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+display: flex;
+justify-content: space-between;
+width: 15px;
+height: 15px;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+display: flex;
+justify-content: space-between;
+width: 15px;
+height: 15px;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+display: flex;
+justify-content: space-between;
+width: 15px;
+height: 15px;
+}
+//extra large
+display: flex;
+justify-content: space-between;
+width: 25px;
+height: 25px;
+}
+
+
+
+@keyframes bounce {
+  10% {
+    transform: scaleY(0.3); /* start by scaling to 30% */
+  }
+
+  30% {
+    transform: scaleY(1); /* scale up to 100% */
+  }
+
+  60% {
+    transform: scaleY(0.5); /* scale down to 50% */
+  }
+
+  80% {
+    transform: scaleY(0.75); /* scale up to 75% */
+  }
+
+  100% {
+    transform: scaleY(0.6); /* scale down to 60% */
+  }
+}
+
+span {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  width: 4px;
+  height: 100%;
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 3px;
+  transform-origin: bottom;
+  animation: bounce 2.2s ease infinite alternate;
+  content: '';
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  width: 6px;
+  height: 100%;
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 3px;
+  transform-origin: bottom;
+  animation: bounce 2.2s ease infinite alternate;
+  content: '';
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  width: 8px;
+  height: 100%;
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 3px;
+  transform-origin: bottom;
+  animation: bounce 2.2s ease infinite alternate;
+  content: '';
+}
+//extra large
+  width: 8px;
+  height: 100%;
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+  border-radius: 3px;
+  transform-origin: bottom;
+  animation: bounce 2.2s ease infinite alternate;
+  content: '';
+}
+
+
+
+span {
+  &:nth-of-type(2) {
+    animation-delay: -2.2s; /* Start at the end of animation */
+  }
+
+  &:nth-of-type(3) {
+    animation-delay: -3.7s; /* Start mid-way of return of animation */
+  }
+}
 
 
 

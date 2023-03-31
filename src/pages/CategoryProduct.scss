@@ -55,7 +55,7 @@ font-weight: bold;
 padding-bottom: 8px;
 }
 //large
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 font-family: 'R-Spectr', sans-serif;
 font-size: 0.9rem;
 text-align: center;
@@ -337,11 +337,11 @@ $color: #000;
   margin-bottom: 40px;
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 700px) and (max-width: 1024px) {
   .category-product-display { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1280px) {
   .category-product-display { 
     grid-template-columns: repeat(3, 1fr); 
   }

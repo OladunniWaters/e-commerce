@@ -1,18 +1,45 @@
 import './Hero.scss'
 import { FaStarOfLife } from 'react-icons/fa';
+import Sound from 'react-sound'
+import  {useState} from 'react';
+import { BsFillCircleFill } from 'react-icons/bs';
+import { FaTimes } from 'react-icons/fa';
 
 
 import hero1 from '../assets/hero1.png';
 import star3 from '../assets/Vector1.png';
+import music1 from '../assets/Migos - Slippery (Instrumental)(MP3_320K).mp3';
 
 
-function Hero() {
+
+
+function Hero(handleSongLoading, handleSongPlaying, handleSongFinishedPlaying) {
+  const [isPlaying, setIsPlaying] = useState(true)
+  
+  
   
   return (
     <div className="container hero">
      <div className='hero-row'>
      <h1 className='hero-h1'>SNEAKERS</h1>
      <div className='StarImage-cont'> 
+     
+          <button className='music-button' onClick={() => setIsPlaying(!isPlaying)}>
+               {!isPlaying 
+               ?  <div className='play-cont'> <FaTimes className='stop-icon'/> <BsFillCircleFill className='stop-icon'/></div>
+               : <div className='play-cont'> <BsFillCircleFill className='stop-icon'/> <div className='icon'><span /> <span /> <span /></div> </div> } 
+           </button>
+              
+               <Sound
+                 url={music1}
+                 playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
+                 playFromPosition={300 /* in milliseconds */}
+                 autoLoad={true}
+                 onLoading={handleSongLoading}
+                 onPlaying={handleSongPlaying}
+                 onFinishedPlaying={handleSongFinishedPlaying}
+               />
+     
      
         <div className='column2'>
                <div className='k60-cont'>
