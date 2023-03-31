@@ -1,3 +1,27 @@
+
+.halloweenImage1 {
+    position: absolute;
+    width: 800px;
+    top: 20px;
+    right: 180px;
+    background-image: url('../assets/hero1.png');
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 10s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+
+
 .hero {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -66,35 +90,6 @@ align-items: center;
 justify-content: center;
 }
 
-
-.heroImage-cont {
-  //small
-@media screen and (min-width: 320px) and (max-width: 576px) {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-// medium
-@media screen and (min-width: 577px) and (max-width: 768px) {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-//large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-//extra large
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
 
 
 
@@ -194,8 +189,6 @@ padding-bottom: 5px;
 }
 
 
-
-
 .halloweenImage {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
@@ -220,6 +213,38 @@ width: 800px;
   -ms-transform: rotate(20deg); /* IE 9 */
   transform: rotate(-20deg);
 }
+
+
+.heroImage-cont {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+//extra large
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
 
 
 
@@ -657,6 +682,7 @@ left: 90px;
 top: 50px;
 width: 60px;
 height: 60px;
+animation: rotation 10s infinite linear;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -665,6 +691,7 @@ left: 170px;
 top: 50px;
 width: 80px;
 height: 80px;
+animation: rotation 10s infinite linear;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -673,6 +700,7 @@ left: 170px;
 top: 50px;
 width: 80px;
 height: 80px;
+animation: rotation 10s infinite linear;
 }
 //extra large
 position: absolute;
@@ -680,7 +708,19 @@ left: 300px;
 top: 150px;
 width: 120px;
 height: 120px;
+animation: rotation 10s infinite linear;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
 
 
 .StarImage3 {
@@ -721,6 +761,7 @@ right: 100px;
 top: 200px;
 width: 30px;
 height: 30px;
+animation: rotation 10s infinite linear;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -729,6 +770,7 @@ right: 180px;
 top: 280px;
 width: 30px;
 height: 30px;
+animation: rotation 10s infinite linear;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -737,6 +779,7 @@ right: 200px;
 top: 240px;
 width: 30px;
 height: 30px;
+animation: rotation 10s infinite linear;
 }
 //extra large
 position: absolute;
@@ -744,6 +787,7 @@ right: 300px;
 top: 380px;
 width: 60px;
 height: 60px;
+animation: rotation 10s infinite linear;
 }
 
 

@@ -56,7 +56,7 @@ align-items: center;
 justify-content: center;
 width: 320px;
 height: 300px;
-//background: var(--color-orange);
+overflow: hidden;
 }
 
 
@@ -64,21 +64,18 @@ height: 300px;
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 width: 200px;
-height: 200px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 width: 200px;
-height: 200px;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 width: 200px;
-height: 200px;
 }
 //extra large
-width: 200px;
-height: 200px;
+width: 300px;
+
 }
 
 

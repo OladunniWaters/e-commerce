@@ -20,9 +20,9 @@ function CategoryProduct() {
           <h1 className='category-header'>EXPOLRE COLLECTION</h1>
       
            <div className='category-button-cont'>
-             <button className='category-button' onClick= {() => filterResult("smartphones")}>smartphones</button>
-             <button className='category-button' onClick= {() => filterResult("fragrances")}>fragrances</button>
-             <button className='category-button' onClick= {() => filterResult("skincare")}>skincare</button>
+             <button className='category-button' onClick= {() => filterResult("sneakers")}>sneakers</button>
+             <button className='category-button' onClick= {() => filterResult("hoodies")}>hoodies</button>
+             <button className='category-button' onClick= {() => filterResult("shorts")}>shorts</button>
              <button className='category-button' onClick={() => setItem(Data)}>All</button>
           </div>
           
