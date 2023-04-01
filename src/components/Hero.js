@@ -8,8 +8,7 @@ import { FaTimes } from 'react-icons/fa';
 
 import hero1 from '../assets/hero1.png';
 import star3 from '../assets/Vector1.png';
-import music1 from '../assets/Migos - Slippery (Instrumental)(MP3_320K).mp3';
-
+import music1 from '../assets/Migos - Walk It Talk It ft. Drake (Instrumental) (Culture 2)(MP3_320K).mp3';
 
 
 
@@ -35,6 +34,7 @@ function Hero(handleSongLoading, handleSongPlaying, handleSongFinishedPlaying) {
                  playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
                  playFromPosition={300 /* in milliseconds */}
                  autoLoad={true}
+                 volume={5}
                  onLoading={handleSongLoading}
                  onPlaying={handleSongPlaying}
                  onFinishedPlaying={handleSongFinishedPlaying}

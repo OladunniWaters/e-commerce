@@ -85,7 +85,7 @@ padding-top: 25px;
 padding-bottom: 25px;
 border: 2px solid var(--color-orange);
 margin-bottom: 20px;
-width: 700px;
+width: 2000px;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -136,7 +136,7 @@ $color: #000;
 .category-button {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-  margin-left: 5px;
+  margin-right: 20px;
   font-size: 10px;
   font-family: 'R-Spectr', sans-serif;
   background: var(--color-bg);
