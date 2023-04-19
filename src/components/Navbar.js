@@ -30,16 +30,16 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/brands">Brands</a>
+                <a class="nav-link" href="#brands">Brands</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/winter">Winter</a>
+                <a class="nav-link" href="#winter">Winter</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/summer">Summer</a>
+                <a class="nav-link" href="#summer">Summer</a>
               </li>              
              <li class="nav-item">
-                <a class="nav-link" href="/sale">Autumn</a>
+                <a class="nav-link" href="#autumn">Autumn</a>
               </li>
             </ul>
             

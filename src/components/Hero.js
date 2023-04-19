@@ -8,7 +8,7 @@ import { FaTimes } from 'react-icons/fa';
 
 import hero1 from '../assets/hero1.png';
 import star3 from '../assets/Vector1.png';
-import music1 from '../assets/Migos - Walk It Talk It ft. Drake (Instrumental) (Culture 2)(MP3_320K).mp3';
+import music1 from '../assets/the-technologic-electronica-142822.mp3';
 
 
 
